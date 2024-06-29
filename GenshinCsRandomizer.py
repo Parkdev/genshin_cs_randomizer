@@ -19,7 +19,7 @@ def randomizeOutfit(character):
     folders = [
         f
         for f in os.listdir(directory_path)
-        if os.path.isdir(os.path.join(directory_path, f)) and f.lower().startswith("disabled")
+        if os.path.isdir(os.path.join(directory_path, f)) and f.lower().startswith("disabled") and not f.split()[1].startswith("_")
     ]
 
     for folder_name in os.listdir(directory_path):
