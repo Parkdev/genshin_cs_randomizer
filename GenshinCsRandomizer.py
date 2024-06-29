@@ -11,7 +11,6 @@ path3dm = os.getcwd() + "/"
 # Put folder(character) name which you DO NOT want to apply
 # Example ["char1", "char2"]
 characterlist = [
-    "_기타", "느비", "타탈", "카즈하", "리니", "_남캐", "종려",
 ]
 
 def randomizeOutfit(character):
